@@ -1,0 +1,141 @@
+@media screen and (max-width: 1200px) {
+    .container {
+        width: 900px;
+    }
+    .subtitle {
+        font-size: 1.6rem;
+    }
+    .banner video {
+        display: none;
+    }
+    .features .features-wrapper {
+        grid-auto-rows: minmax(375px, auto);
+    }
+    .review .review_wrapper {
+        grid-auto-rows: minmax(280px, auto);
+    }
+    .footer .footer_wrapper {
+        grid-template: minmax(219px, auto) / 330px 250px 199px;
+    }
+}
+@media screen and (max-width: 991px) {
+    .container {
+        width: 700px;
+    }
+    .title {
+        font-size: 2.5rem;
+    }
+    .subtitle {
+        font-size: 1.3rem;
+    }
+    .banner_inner .banner_title {
+        font-size: 4.5rem;
+    }
+    .banner_inner .banner_subtitle {
+        font-size: 1.8rem;
+    }
+    .rewiew_items .review_descr {
+        font-size: 1.6rem;
+    }
+    .footer .footer_wrapper {
+        grid-template: repeat(2, minmax(219px, auto)) / repeat(2, 360px);
+        column-gap: 30px;
+        row-gap: 0;
+    }
+    .footer .footer_descr {
+        grid-column: 1 / 3;
+    }
+}
+@media screen and (max-width: 767px) {
+    .container {
+        width: 500px;
+    }
+    .title {
+        font-size: 2rem;
+    }
+    .subtitle {
+        font-size: 1.3rem;
+        line-height: 20px;
+        margin-top: 20px;
+    }
+    .banner {
+        height: 400px;
+    }
+    .banner_inner .banner_title {
+        font-size: 3.5rem;
+    }
+    .banner_inner .banner_subtitle {
+        font-size: 1.5rem;
+    }
+    .features {
+        padding: 80px 0 50px 0;
+    }
+    .features .features-wrapper {
+        grid-auto-rows: minmax(325px, auto);
+    }
+    .parallax {
+        padding: 90px 0;
+    }
+    .footer .footer_descr-subtitle {
+        font-size: 1.5rem;
+    }
+    .footer .footer_wrapper {
+        grid-template: repeat(3, minmax(219px, auto)) / minmax(280px, auto);
+        column-gap: 0;
+        row-gap: 30px;
+    }
+    .footer .footer_descr {
+        grid-column: 1 / 1;
+    }
+}
+@media screen and (max-width: 575px) {
+    .container {
+        width: 280px;
+    }
+    .title {
+        font-size: 1.5rem;
+    }
+    .subtitle {
+        font-size: 1.1rem;
+        line-height: 20px;
+        margin-top: 15px;
+    }
+    .nav_menu ul {
+        width: 200px;
+    }
+    .banner {
+        height: 300px;
+    }
+    .banner_inner .banner_title {
+        font-size: 2.2rem;
+    }
+    .banner_inner .banner_subtitle {
+        font-size: 1.2rem;
+    }
+    .features {
+        padding: 50px 0 30px 0;
+    }
+    .features_item .features_item-title {
+        font-size: 1.5rem;
+    }
+    .features_item .features_item-subtitle {
+        font-size: 1.1rem;
+        line-height: 20px;
+    }
+    .rewiew_items .review_descr {
+        font-size: 1.1rem;
+    }
+    .rewiew_items .review_autor .review_name {
+        font-size: 1.1rem;
+    }
+    .parallax {
+        padding: 70px 0;
+    }
+    .parallax .parallax_title {
+        font-size: 1.6rem;
+    }
+    .footer .footer_descr-subtitle {
+        font-size: 1.1rem;
+    }
+}
+
